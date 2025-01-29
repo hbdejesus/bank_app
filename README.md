@@ -1,16 +1,27 @@
-# bank_app
 
-A new Flutter project.
+## Sample Banking App
 
-## Getting Started
+...
 
-This project is a starting point for a Flutter application.
+## Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter SDK `>=3.27.0`
+* Dart SDK  `>=3.6.1 <4.0.0`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Info
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Uses Appwrite for authentication and BE
+* Uses [Flutter Version Management](https://fvm.app/docs/getting_started/installation) for handling flutter versions
+
+Demo account:
+- Email: `sample.user1@bank.com`
+- Password: `samplepassword`
+
+# Local Development Setup
+
+To run the app, run the ff commands first
+* Run `flutter pub get`
+* Run `flutter pub run build_runner build -d`
+
+To run the tests
+*  Run `flutter test`
